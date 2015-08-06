@@ -61,7 +61,7 @@ void draw()
     if(y>(height-ellSize))
     {
       y=(height-ellSize)-ellSize;
-      state=5;
+      state=0;
     }
   }
 }
@@ -70,3 +70,9 @@ void mousePressed()
 {
   loop();
 }
+
+void mouseReleased()
+{
+  noLoop();
+}
+
