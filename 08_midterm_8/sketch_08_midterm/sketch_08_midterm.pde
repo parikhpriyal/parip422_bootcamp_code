@@ -38,7 +38,7 @@ void draw()
   }
   video.loadPixels();
   //  loadPixels()x;
-  background(255);
+  background(0);
   pg.beginDraw();
   if(mousePressed)
   {
